@@ -7,14 +7,13 @@
   text-decoration: underline;
 }
 
-/* Menu : lien actif (gras + souligné + couleur différente) */
+/* Menu : lien actif */
 .navbar-nav .active-link {
   font-weight: bold;
   text-decoration: underline;
   color: white;
 }
 
-/* Effet survol des Cards (Page Services et Réalisations) */
 .service-card {
   transition: all 0.3s ease-in-out;
 }
@@ -25,7 +24,7 @@
 }
 
 /* PAGE PORTFOLIO */
-/* Effet survol des Cards du Portfolio */
+
 .portfolio-card {
   transition: all 0.3s ease-in-out;
 }
@@ -35,11 +34,33 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-/* Effet pour éclaircir le bouton au survol (Consigne spécifique) */
 .btn-portfolio {
   transition: all 0.3s ease-in-out;
 }
 
 .btn-portfolio:hover {
   filter: brightness(1.15);
+}
+
+/* FOOTER */
+
+.footer-link {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-link:hover {
+  font-weight: bold;
+  color: #fff;
+}
+
+.social-icon {
+  color: #6c757d;
+  font-size: 1.5rem;
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icon:hover {
+  color: #ffffff;
 }

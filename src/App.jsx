@@ -7,12 +7,13 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Legal from "./pages/Legal";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
       <Header />
-      <main>
+      <div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
@@ -20,7 +21,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/legal" element={<Legal />} />
         </Routes>
-      </main>
+      </div>
+      <Footer />
     </Router>
   );
 }
