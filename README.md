@@ -1,1 +1,3 @@
-![Validation W3C](./docs/validateur-w3c.png.png)
+# validation X3C
+
+![Validation W3C](./docs/validateur-w3c.png)
